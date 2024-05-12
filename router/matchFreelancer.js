@@ -324,51 +324,51 @@ router.post('/', async (req, res) => {
             
             // Accounting and Consulting
             if (job.includes("Accounting and Consulting")) {
-                imgPath = path.join(__dirname, `../img_job/Accounting and Consulting.png`)    
+                imgPath = "Accounting and Consulting"
             }
             // Admin Support
             else if (job.includes("Admin Support")) {
-                imgPath = path.join(__dirname, `../img_job/Admin Support.png`)        
+                imgPath = "Admin Support"
             }
             // AI servives
             else if (job.includes("AI servives")) {
-                imgPath = path.join(__dirname, `../img_job/AI servives.png`)        
+                imgPath = "AI servives"      
             }
             // Engineering and Architecture
             else if (job.includes("Engineering and Architecture")) {
-                imgPath = path.join(__dirname, `../img_job/Engineering and Architecture.png`)        
+                imgPath = "Engineering and Architecture"
             }
             // Data Science and Analysis
             else if (job.includes("Data Science and Analysis")) {
-                imgPath = path.join(__dirname, `../img_job/Data Science and Analysis.png`)
+                imgPath = "Data Science and Analysis"
             }
             // IT and Networking
             else if (job.includes("IT and Networking")) {
-                imgPath = path.join(__dirname, `../img_job/IT and Networking.png`)
+                imgPath = "IT and Networking"
             }
             // Design and Creative
             else if (job.includes("Design and Creative")) {
-                imgPath = path.join(__dirname, `../img_job/Design and Creative.png`)
+                imgPath = "Design and Creative"
             }
             // Legal
             else if (job.includes("Legal")) {
-                imgPath = path.join(__dirname, `../img_job/Legal.png`)
+                imgPath = "Legal"
             }
             // Sales and Marketing
             else if (job.includes("Sales and Marketing")) {
-                imgPath = path.join(__dirname, `../img_job/Sales and Marketing.png`)
+                imgPath = "Sales and Marketing"
             }
             // Translation
             else if (job.includes("Translation")) {
-                imgPath = path.join(__dirname, `../img_job/Translation.png`)
+                imgPath = "Translation"
             }
             // Web, Mobile, and Software Development
             else if (job.includes("Web, Mobile, and Software Development")) {
-                imgPath = path.join(__dirname, `../img_job/Web, Mobile, and Software Development.png`)
+                imgPath = "Web, Mobile, and Software Development"
             }
             // Writing
             else if (job.includes("Writing")) {
-                imgPath = path.join(__dirname, `../img_job/Writing.png`)
+                imgPath = "Writing"
             }
             
             
