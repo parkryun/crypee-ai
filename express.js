@@ -4,7 +4,6 @@ const app = express()
 const port = 3000
 const path = require('path')
 
-const testApi = require('./test.js')
 const matchFreelancerApi = require('./router/matchFreelancer.js')
 
 app.use(cors())
