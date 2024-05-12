@@ -282,7 +282,7 @@ async function continueConversation(prompt) {
     }
 }
 
-router.get('/', async (req, res) => {
+router.post('/', async (req, res) => {
         
     const result = {
         "success": false,
