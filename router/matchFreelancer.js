@@ -251,13 +251,13 @@ async function continueConversation(prompt) {
             17. Technical Writing
             18. Web and UX Writing
             19. Writing Tutoring`},
-            {role: "user", content: `답변할 때 다음과 같은 규칙을 지켜줘 1. 직업군 - 직업 순서로 답변 2. 내가 알려준 영어 직업군과 직업명이랑 완전히 일치하게 답변 3. 세가지 종류의 서로 다른 직업군과 직업을 알려주는 답변`},
+            {role: "user", content: `답변할 때 다음과 같은 규칙을 지켜줘 1. 직업군, 직업 순서로 답변 2. 내가 알려준 영어 직업군과 직업명이랑 완전히 일치하게 답변 3. 세가지 종류의 서로 다른 직업군과 직업을 알려주는 답변`},
             {role: "user", content: `내가 html 형식으로 답변 예시를 보여줄게 앞으로 이렇게 답변해주면 돼
             ex) 
             <ol>
-                <li>AI services - AI App Development </li>
-                <li>IT and Networking - Cloud Engineering </li>
-                <li>Sales and Marketing - Brand Strategy </li>
+                <li>AI services & AI App Development </li>
+                <li>IT and Networking & Cloud Engineering </li>
+                <li>Sales and Marketing & Brand Strategy </li>
             </ol>
             `},
             {role: "user", content: "좋아 이제 물어볼게"},
