@@ -255,9 +255,9 @@ async function continueConversation(prompt) {
             {role: "user", content: `내가 html 형식으로 답변 예시를 보여줄게 앞으로 이렇게 답변해주면 돼
             ex) 
             <ol>
-                <li>AI services & AI App Development </li>
-                <li>IT and Networking & Cloud Engineering </li>
-                <li>Sales and Marketing & Brand Strategy </li>
+                <li>AI services + AI App Development </li>
+                <li>IT and Networking + Cloud Engineering </li>
+                <li>Sales and Marketing + Brand Strategy </li>
             </ol>
             `},
             {role: "user", content: "좋아 이제 물어볼게"},
