@@ -1,8 +1,17 @@
 const express = require('express')
 const cors = require("cors")
 const app = express()
-const port = 3000
 const path = require('path')
+
+const https = require("https")
+const fs = require("fs")
+
+const port = 3000
+
+const options = {
+    key: fs.readFileSync("./cert.key"),
+    cert: fs.readFileSync("./cert.crt"),
+}
 
 const matchFreelancerApi = require('./router/matchFreelancer.js')
 
@@ -20,5 +29,9 @@ app.use('/matchFreelancer', matchFreelancerApi)
 //   })
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
+})
+
+https.createServer(options, app).listen(8080, () => {
+    console.log(`HTTPS server started on port 8080`)
 })
 
