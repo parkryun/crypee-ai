@@ -24,12 +24,17 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.use('/matchFreelancer', matchFreelancerApi)
 
+app.get('/', (req, res) => {
+    console.log(1)
+    res.send('Hello, HTTPS!');
+});
+
 // app.get("/", (req, res) => {
 //     res.sendFile(__dirname + "/index.html")
 //   })
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`)
-})
+// app.listen(port, () => {
+//     console.log(`Server is running on port ${port}`)
+// })
 
 https.createServer(options, app).listen(8080, () => {
     console.log(`HTTPS server started on port 8080`)
